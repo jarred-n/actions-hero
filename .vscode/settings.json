@@ -1,0 +1,29 @@
+{
+  // Disable autocomplete suggestions
+  "editor.quickSuggestions": {
+    "comments": "off",
+    "strings": "off",
+    "other": "off"
+  },
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.inlineSuggest.enabled": false,
+  
+  // Disable parameter hints
+  "editor.parameterHints.enabled": false,
+  
+  // Disable hover tooltips
+  "editor.hover.enabled": "off",
+  
+  // Disable code snippet suggestions
+  "editor.snippetSuggestions": "none",
+  
+  // Disable word-based suggestions
+  "editor.wordBasedSuggestions": "off",
+
+  // Keep YAML files from showing completion popups while typing
+  "[yaml]": {
+    "editor.quickSuggestions": false,
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.inlineSuggest.enabled": false
+  }
+}
